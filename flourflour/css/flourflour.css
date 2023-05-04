@@ -1,0 +1,524 @@
+/*
+font-family: 'Kirang Haerang', cursive; Mere Mortals
+font-family: 'Roboto Mono', monospace; Listen...
+*/
+
+/*
+.img-container {
+    width: 50%;
+    margin: auto;
+    height: 300px;
+    background-image: url("../img/main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s ease-in-out;
+}
+
+.img-container:hover {
+
+    background-image: url(../img/tracklist.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 300px;
+}
+*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.backdrop-flash {
+    width: 85%;
+    height: 85vh;
+    margin: auto;
+    background-color: blue;
+
+    -webkit-animation-name: flour-shock;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    /* Safari 4.0 - 8.0 */
+    animation-name: flour-shock;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes flour-shock {
+    0% {
+        background-color: #9696c8;
+    }
+    20% {
+        background-color: #d96e75;
+    }
+    40% {
+        background-color: #668b3f;
+    }
+    60% {
+        background-color: #3dcece;
+    }
+    80% {
+        background-color: #508b57;
+    }
+    100% {
+        background-color: #aaaaaa;
+    }
+}
+
+/* Standard syntax */
+
+/*@keyframes flour-shock {
+    0% {
+        background-color: blue;
+    }
+    20% {
+        background-color: chartreuse;
+    }
+    40% {
+        background-color: deeppink;
+    }
+    60% {
+        background-color: fuchsia;
+    }
+    80% {
+        background-color: greenyellow;
+    }
+    100% {
+        background-color: red;
+    }
+
+}*/
+
+@keyframes flour-shock {
+    0% {
+        background-color: #9696c8;
+    }
+    20% {
+        background-color: #d96e75;
+    }
+    40% {
+        background-color: #668b3f;
+    }
+    60% {
+        background-color: #3dcece;
+    }
+    80% {
+        background-color: #508b57;
+    }
+    100% {
+        background-color: #aaaaaa;
+    }
+
+}
+
+.jumbotron {
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    height: 85vh;
+    padding: 0;
+}
+
+.container-jumbo {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 85vh;
+}
+
+.vh-center {
+    height: 85vh;
+}
+
+.h1-flash {
+    font-size: 2.5rem;
+    font-weight: 300;
+/*    line-height: 1.2;*/
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    animation: font-change 3s infinite;
+    -webkit-animation: wfont-change 3s infinite;
+}
+
+@keyframes font-change {
+    0% {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    100% {
+        font-family: 'Kirang Haerang', cursive;
+    }
+}
+
+@-webkit-keyframes wfont-change {
+    0% {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    100% {
+        font-family: 'Kirang Haerang', cursive;
+    }
+}
+
+
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+
+
+
+
+.fire-width {
+
+    width: 50px;
+}
+
+.lead {
+    text-align: center;
+
+}
+
+#header {
+    /*    background-color: white;*/
+}
+
+.mortals {
+    padding: 20px;
+    font-size: 1.4rem;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+.top-section {
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+.btn-sm {
+    background-color: white;
+    color: black;
+    font-family: 'Kirang Haerang', cursive;
+    width: 100px;
+    height: 35px;
+
+}
+
+.btn-sm:hover {
+    opacity: .7;
+
+}
+
+.btn-sm a:hover {
+    color: black;
+
+}
+
+#music-btn {
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+
+
+}
+
+.mb-4,
+.my-4 {
+    margin-bottom: 2rem !important;
+}
+
+.sml-text {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    /*font-style: italic;*/
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 1.3rem;
+
+}
+
+#underneath-image {
+
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 1.5rem;
+    font-family: 'Kirang Haerang', cursive;
+
+
+}
+
+#underneath-image a {
+    color: black;
+
+}
+
+#underneath-image a:hover {
+
+    color: white;
+    background: black;
+    /*    background: linear-gradient(to left top, black, #db6b7d);*/
+}
+
+.container-underneath {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 3rem;
+}
+
+.img-splash a {
+    display: table-cell;
+
+}
+
+.display-table {
+    display: table;
+}
+
+
+.img-main {
+    max-width: 100%;
+    max-height: 400px;
+    /* text-align: -webkit-center; */
+    display: block;
+    margin: auto;
+
+}
+
+.img-main:hover {
+    opacity: .7;
+
+
+
+
+}
+
+body {
+    background-image: url(../img/logo-o.png);
+    background-size: 100px;
+    background-position: left;
+    background-attachment: fixed;
+
+}
+
+#grass {
+    background-image: url(../img/grass.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15vh;
+}
+
+
+#bio-music {
+    background-image: url(../img/trees2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 50px;
+    padding-top: 50px;
+
+}
+
+.bio-heading {
+    color: #555;
+    text-align: right;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+.container {}
+
+.bandcamp-margin {
+    margin-top: 40px;
+    border-radius: 50% !important;
+}
+
+.green {
+
+    color: #555;
+    margin-top: 30px;
+
+
+}
+
+#shows-heading {
+    text-align: left;
+    font-family: 'Kirang Haerang', cursive;
+    margin-left: 40px;
+}
+
+
+.article {
+    text-align: center;
+    /*
+  background: linear-gradient(greenyellow,#fff);
+    background: white;
+*/
+    border-radius: 5%;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 20px;
+
+}
+
+.article:hover {}
+
+.article-link {
+    color: #555;
+}
+
+.article-link:hover {
+    color: #668b3f;
+}
+
+.shape {
+    margin: 20px 0;
+
+
+
+
+}
+
+.row-center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    height: 100px;
+}
+
+
+.footer {
+    /*
+    background-image: url(../img/smaller/promo3000.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+*/
+    /*
+   width: 60%;
+    margin: auto;
+    height: 100px;
+    margin-top: 15px;
+*/
+    background-color: #333;
+    height: 100px;
+}
+
+.container-footer {
+    height: 100px;
+}
+
+
+.navbar a {
+    color: black !important;
+
+}
+
+#dates {
+    text-align: center;
+    height: 250px;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    color: white;
+}
+
+.backdrop-flash-bot {
+    width: 100%;
+    /* margin: 0px auto; */
+    /* height: auto; */
+    background-color: blue;
+    -webkit-animation-name: flour-shock;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: flour-shock;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /*    margin-top: 100px;*/
+}
+
+.flour-img {
+    width: 50%;
+
+}
+
+
+
+#bio-img-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
+.hr-dates {
+    margin-bottom: 1rem;
+}
+
+/*
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-image: url(../img/grass.png);
+    background-size: contain;
+    background-position: left;
+    background-color: white;
+
+}
+*/
+
+.form-line {
+    margin-bottom: 15px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 20px;
+}
+
+#mc_embed_signup_scroll {
+    margin: auto;
+    margin: 80px 0;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+}
